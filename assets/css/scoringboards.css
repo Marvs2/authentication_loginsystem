@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: inline-block; /* Aligns divs horizontally */
+    vertical-align: top;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ccc; /* Creates a box border */
+    border-radius: 10px;     /* Rounds the corners */
+    background-color: #f9f9f9; /* Light background color for box effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+#increment-g-btn {
+    background: darkgreen;
+}
+
+#decrement-g-btn {
+    background: darkred;
+}
+
+#increment-h-btn {
+    background: darkgreen;
+}
+
+#decrement-h-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#zero-btn {
+    background: darkgrey;
+    color: black;
+    font-weight: bold;
+}

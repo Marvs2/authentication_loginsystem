@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../../database/db.php');
+include('../database/db.php');
 
 
 if (!isset($_SESSION['user_id'])) {
@@ -24,4 +24,4 @@ if ($result->num_rows == 0) {
 }
 
 echo "Welcome, " . $_SESSION['username'] . "! <br>";
-echo '<a href="logout.php">Logout</a>';
+echo '<a href="../logout.php">Logout</a>';
